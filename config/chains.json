@@ -93,6 +93,36 @@
     "image": "/logos/chains/mainnet/polygon.png"
   },
   {
+    "id": "candle",
+    "title": "Candle",
+    "short_name": "CNDL",
+    "chain_id": 534,
+    "provider_params": [
+      {
+        "chainId": "0x216",
+        "chainName": "Candle Mainnet",
+        "rpcUrls": ["https://candle-rpc.com", "https://rpc.cndlchain.com"],
+        "nativeCurrency": {
+          "name": "Candle",
+          "symbol": "CNDL",
+          "decimals": 18
+        },
+        "blockExplorerUrls": ["https://candlexplorer.com"]
+      }
+    ],
+    "explorer": {
+      "name": "CandleExplorer",
+      "url": "https://candlexplorer.com",
+      "icon": "/logos/explorers/polygonscan.png",
+      "block_path": "/block/{block}",
+      "address_path": "/address/{address}",
+      "contract_path": "/token/{address}",
+      "contract_0_path": "/address/{address}",
+      "transaction_path": "/tx/{tx}"
+    },
+    "image": "/logos/chains/mainnet/polygon.png"
+  },
+  {
     "id": "avalanche",
     "title": "Avalanche",
     "short_name": "AVAX",

@@ -16,6 +16,7 @@ const providerOptions = {
     options: {
       rpc: {
         1: `https://mainnet.infura.io/v3/${process.env.NEXT_PUBLIC_INFURA_ID}`,
+        534: 'https://candle-rpc.com',
         56: 'https://bsc-dataseed.binance.org',
         137: 'https://polygon-rpc.com',
         42161: 'https://arb1.arbitrum.io/rpc',
@@ -69,6 +70,7 @@ const chainIdToNetwork = chain_id => {
   return {
     1: 'mainnet',
     56: 'binance',
+    534: 'candle',
     137: 'matic',
     42161: 'arbitrum',
     10: 'optimism',
